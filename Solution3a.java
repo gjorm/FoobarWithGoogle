@@ -59,7 +59,7 @@ public class Solution3a {
 		return val;
 	}
 	
-	//totally copied from StackOverflow and modified for BigInteger. Not mine
+	//totally copied from StackOverflow and modified for BigInteger. Not mine! This test passes, however.
 	public static int FindMinNumOps2(BigInteger x) {
 		int ctr = 0;
 		
@@ -82,7 +82,7 @@ public class Solution3a {
 	public static int solution(String x) {
 		BigInteger input = ParseBigInt(x);
 		
-		return FindMinNumOps2(input);
+		return FindMinNumOps(input);
 	}
 	
 	public static void main(String[] args) {
