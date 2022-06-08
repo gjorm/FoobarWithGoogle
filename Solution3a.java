@@ -1,4 +1,4 @@
-//Note: this did not pass the hidden tests of the challenge due to space complexity requirements (or so I've gathered, Google did not indicate why these fails)
+//Note: FindMinNumOps() does not pass the hidden tests of the challenge due to space complexity requirements (or so I've gathered, Google did not indicate why these fails)
 //Given an integer value, find the number of operations it takes to reduce the value to 1, given three operations: a) Add 1, b) Subtract 1, c) Divide by 2
 import java.math.BigInteger;
 import java.util.HashMap;
@@ -59,7 +59,7 @@ public class Solution3a {
 		return val;
 	}
 	
-	//totally copied from StackOverflow and modified for BigInteger. Not mine! This test passes, however.
+	//totally copied from StackOverflow and modified for BigInteger. Not mine! This passes the hidden tests, however.
 	public static int FindMinNumOps2(BigInteger x) {
 		int ctr = 0;
 		
